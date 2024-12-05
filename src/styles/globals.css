@@ -1,0 +1,30 @@
+:root {
+  --cyberpink: #FF0090;
+  --neonblue: #0090FF;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--cyberpink);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1A1B1E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #373A40;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cyberpink);
+}
